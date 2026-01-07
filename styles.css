@@ -1,1 +1,22 @@
-/* your code */
+.stats-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.stats-table th,
+.stats-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.stats-table thead {
+    background-color: #1f4e79;
+    color: white;
+}
+
+.stats-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
